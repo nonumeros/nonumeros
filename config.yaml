@@ -1,0 +1,10 @@
+--
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+  category: "categories"
+baseurl: "https://nonumeros.github.io"
+title: "Blog"
+canonifyurls: true
+...
