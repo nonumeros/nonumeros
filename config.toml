@@ -1,0 +1,14 @@
+baseurl = "https://nonumeros.github.io"
+languageCode = "en-us"
+title = "My New Hugo Site"
+copyright = "&copy; Copyright notice"
+theme = "vienna"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+builddrafts = true
+canonifyurls = true
+
+[params]
+	subtitle = "a blog"
