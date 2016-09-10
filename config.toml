@@ -7,7 +7,6 @@ theme = "vienna"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
-builddrafts = true
 canonifyurls = true
 
 [params]
