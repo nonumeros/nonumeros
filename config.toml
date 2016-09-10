@@ -2,7 +2,7 @@ baseurl = "https://nonumeros.github.io"
 languageCode = "en-us"
 title = "My New Hugo Site"
 copyright = "&copy; Copyright notice"
-theme = "vienna"
+theme = "casper"
 
 contentdir = "content"
 layoutdir = "layouts"
@@ -11,3 +11,4 @@ canonifyurls = true
 
 [params]
 	subtitle = "a blog"
+	author = ""
