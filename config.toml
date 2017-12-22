@@ -1,7 +1,7 @@
 baseurl = "https://nonumeros.github.io/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-copyright = "&copy; Copyright notice"
+copyright = "&copy; Copyright notice Carlos :)"
 theme = "vienna"
 
 
