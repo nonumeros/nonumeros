@@ -1,3 +1,7 @@
+[submodule "themes/public"]
+	path = themes/public
+	url = https://github.com/nonumeros/nonumeros.github.io.git
+	branch = master
 [submodule "public"]
 	path = public
 	url = https://github.com/nonumeros/nonumeros.github.io.git

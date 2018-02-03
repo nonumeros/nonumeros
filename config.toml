@@ -5,8 +5,8 @@ copyright = "&copy; Copyright notice Carlos :)"
 theme = "lanyon"
 
 
-canonifyURLs = true
-paginate = 10
+#canonifyURLs = true
+#paginate = 10
 
 [indexes]
   tag = "tags"
