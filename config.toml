@@ -2,12 +2,40 @@ baseurl = "https://nonumeros.github.io/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 copyright = "&copy; Copyright notice Carlos :)"
-theme = "vienna"
+theme = "lanyon"
 
 
-[params]
-	subtitle = "a blog"
-	author = ""
-	authorwebsite ="https://nonumeros.github.io"
+canonifyURLs = true
+paginate = 10
 
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+#[params]
+  # Shown in the home page
+#  subtitle = "A Hugo Theme"
+#  brand = "Blackburn"
+#  googleAnalytics = "Your Google Analytics tracking ID"
+#  disqus = "Your Disqus shortname"
+  # CSS name for highlight.js
+#  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006, 15:04"
+
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 1
+    identifier = "posts"
+    url = "/post/"
+  
 
